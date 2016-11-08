@@ -10,7 +10,7 @@
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # ====================
-# NOTE: please consult http://pythonhosted.org/psutil/ on ideas for expanding / modifying this.
+# NOTE: please consult http://pythonhosted.org/psutil/ on ideas for expanding / modifying this. This program relies on how that library works, but I got nothing to do with them.
 # TODO: add option to guarantee alternate program stays running, if it is closed early.
 # ====================
 
