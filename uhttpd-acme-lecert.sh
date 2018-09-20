@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 
 # Michael Adams @ https://github.com/unquietwiki ; Sep 20, 2018
 # Attempt to get Let's Encrypt certs loaded onto an OpenWRT router. Should run this every 30-60 days.
@@ -11,7 +11,7 @@
 
 DOMAIN=example.com
 
-echo Adjusting firewall rules to make sure HTTP & HTTPS are allowed externally
+echo Adjusting firewall rules to make sure HTTP and HTTPS are allowed externally
 iptables -A INPUT -p tcp --dport 80 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
 iptables -A OUTPUT -p tcp --sport 80 -m conntrack --ctstate ESTABLISHED -j ACCEPT
 iptables -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
