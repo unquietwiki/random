@@ -2,7 +2,7 @@
 
 # Michael Adams @ https://github.com/unquietwiki ; Sep 20, 2018
 # Attempt to get Let's Encrypt certs loaded onto an OpenWRT router. Should run this every 30-60 days.
-# Copy to /etc/uhttpd-acme-lecert.sh & chmod a+x the resulting file.
+# Copy to /etc/uhttpd-acme-lecert.sh & chmod a+x the resulting file. Edit the ACME & uhttpd configs, as needed.
 
 # Reference 1: https://openwrt.org/zh-cn/doc/uci/uhttpd?s[]=uhttpd
 # Reference 2: https://stokito.wordpress.com/2017/10/16/how-to-letsencrypt-https-on-openwrt-with-uhttpd/
